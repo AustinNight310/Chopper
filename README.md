@@ -1,9 +1,11 @@
 # Chopper
 
-A session inventory skill for [Claude Code](https://claude.com/claude-code). It reads the current conversation back and sorts every thread into two lists:
+A session inventory skill for [Claude Code](https://claude.com/claude-code). It reads the current conversation back, pulls the durable conclusion out of each thread, and cuts what's left:
 
-- **LIVE** — decisions still binding, files mid-edit, open questions
-- **DONE** — dead ends, superseded plans, resolved bugs, tool output already acted on
+- **LIVE** — decisions still binding, files mid-edit, open questions, facts about how this environment behaves
+- **DONE** — the bodies: attempts, tool output, reasoning, retelling
+
+The order matters. A finished thread usually leaves something behind that is still binding — a failed experiment is dead, but *why* it failed governs the next attempt. Sorting whole threads into two bins forces one verdict on both halves, so you either keep fifteen turns to protect one sentence, or lose the sentence with the turns. Chopper extracts the sentence first, then cuts the turns.
 
 One audit, several uses: resuming after a break, handing off, writing up what happened, or aiming a `/compact` before you run it.
 

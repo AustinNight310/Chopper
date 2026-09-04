@@ -28,7 +28,7 @@ prototype, the jose source read, the resolved TypeError.
 ## Install
 
 ```
-/plugin marketplace add AustinNight310/chopper
+/plugin marketplace add AustinNight310/Chopper
 /plugin install chopper@chopper
 ```
 

@@ -3,8 +3,8 @@
   "name": "chopper",
   "description": "Session inventory for Claude Code. Know what's still live before you compact, clear, or hand off.",
   "owner": {
-    "name": "bwellz",
-    "url": "https://github.com/bwellz"
+    "name": "AustinNight310",
+    "url": "https://github.com/AustinNight310"
   },
   "plugins": [
     {

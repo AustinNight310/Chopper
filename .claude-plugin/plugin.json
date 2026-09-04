@@ -1,0 +1,7 @@
+{
+  "name": "chopper",
+  "description": "Session inventory: sorts a conversation into what's still live and what's finished.",
+  "version": "0.1.0",
+  "license": "MIT",
+  "keywords": ["context", "compaction", "session", "handoff", "inventory"]
+}

@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "chopper",
+  "description": "Session inventory for Claude Code. Know what's still live before you compact, clear, or hand off.",
+  "owner": {
+    "name": "bwellz",
+    "url": "https://github.com/bwellz"
+  },
+  "plugins": [
+    {
+      "name": "chopper",
+      "description": "Sorts the current session into LIVE and DONE. For resuming, handing off, writing up, or aiming a /compact.",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}
